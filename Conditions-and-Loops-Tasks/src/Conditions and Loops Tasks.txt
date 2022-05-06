@@ -1,0 +1,38 @@
+Tasks:
+
+1. Get the range of numbers from user and sum. 
+	Ex Output:
+		Enter the Start num: 1
+		Enter the end num : 10
+		Result : 55
+	
+2. Reverse the given Number.
+	Ex O/p:
+		Enter the number : 567989
+		Result : 989765
+		
+3. Print the arithmetic table of given number.
+	Ex O/p:
+		Enter the number : 5
+		5 * 1 = 5
+		5 * 2 = 10
+		upto ....
+		5 * 10 = 50
+		
+4.  Write a Java program to sort a numeric array.
+	Ex O/p:
+		[10, 56, 98,0,42,6]
+		Result : [0, 6, 10, 42, 56, 98]
+		
+5. Write a Java program to remove a specific element from an array.
+6. Write a Java program to find the duplicate values of an array of integer values.
+7. Write a Java program to find the common elements between two arrays (string values)
+8. Write a Java program to find the second largest element in an array.
+9. Find the given element from an Array.
+10. Write a Java program to find the sum of the two elements of a given array which is equal to a given integer.
+	Ex O/p: 
+		Sample array: [1,2,4,5,6]
+		Target value: 6.
+11. A company decided to give bonus of 5% to employee if his/her year of service is more than 5 years.
+	Ask user for their salary and year of service and print the net bonus amount.
+12. Take values of length and breadth of a rectangle from user and check if it is square or not.
