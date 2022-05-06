@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Scanner;
 
@@ -157,6 +158,73 @@ public class Task {
 		}
 		
 		return array[end];
+	}
+	
+	public static int findIndex(int[] array, int val) 
+	{
+		int result = -1;
+		for(int i = 0; i < array.length; i++) 
+		{
+			if(array[i] == val) result = i;
+		}
+		return result;
+	}
+	
+	public static int[] twoSum(int[] nums, int target) 
+	{
+    	int[] result = new int[2];
+        HashMap<Integer, Integer> map = new HashMap<>();
+        
+        for(int i = 0; i < nums.length; i++)
+        {
+        	if(map.containsKey(target - nums[i]))
+        	{
+        		result[0] = nums[i];
+        		result[1] = target - nums[i];
+        	}
+        	else map.put(nums[i], i);
+        }
+        return result;
+      }
+	
+	public static void company() 
+	{
+		System.out.println("What is your current salary?");
+
+		double salary = scanner.nextInt();
+
+		System.out.println("What is your year of service?");
+
+		int yos = scanner.nextInt();
+
+		if(yos >= 5)
+		{
+			System.out.println("Your bonus amount is $" + (salary * 0.05) + ".");
+		}
+		else
+		{
+			System.out.println("Your bonus amount is $0.");
+		}
+	}
+	
+	public static void checkSquare()
+	{
+		System.out.println("Enter the length:");
+
+		double l = scanner.nextInt();
+
+		System.out.println("Enter the width:");
+
+		double w = scanner.nextInt();
+
+		if(w == l)
+		{
+			System.out.println("It is a square.");
+		}
+		else
+		{
+			System.out.println("It is not a square");
+		}
 	}
 	
 	public static void main(String[] args) 
